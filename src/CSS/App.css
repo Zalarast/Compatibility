@@ -1,0 +1,75 @@
+.App {
+    height: 100vh;
+    background-image: url("../img/heart.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainTitle{
+    position: absolute;
+    top: 25%;
+    align-self: center;
+    justify-self: start;
+    margin-top: -18px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: rgb(124, 37, 66);
+    text-shadow: white 0.006em 0.006em 0.007em, #9c9c9c 1px 1px 1px, #9c9c9c 1px 2px 1px, #9c9c9c 1px 3px 1px, #9c9c9c 1px 4px 1px, #9c9c9c 1px 5px 1px, #9c9c9c 1px 6px 1px, #9c9c9c 1px 7px 1px, #9c9c9c 1px 8px 1px, #9c9c9c 1px 9px 1px, #9c9c9c 1px 10px 1px, #9c9c9c 1px 11px 1px, #9c9c9c 1px 12px 1px, rgba(16, 16, 16, 0.4) 1px 18px 6px, rgba(16, 16, 16, 0.2) 1px 22px 10px, rgba(16, 16, 16, 0.2) 1px 26px 35px, rgba(16, 16, 16, 0.4) 1px 30px 65px;
+}
+
+.checkWindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkWindow h2 {
+    margin-top: 20px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.checkWindow input {
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.App button {
+    border-radius: 10px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background-color: pink;
+}
+
+.resultWindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultWindow h1 {
+    align-self: center;
+    justify-self: start;
+    margin-top: -18px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: rgb(124, 37, 66);
+    text-shadow: white 0.006em 0.006em 0.007em, #9c9c9c 1px 1px 1px, #9c9c9c 1px 2px 1px, #9c9c9c 1px 3px 1px, #9c9c9c 1px 4px 1px, #9c9c9c 1px 5px 1px, #9c9c9c 1px 6px 1px, #9c9c9c 1px 7px 1px, #9c9c9c 1px 8px 1px, #9c9c9c 1px 9px 1px, #9c9c9c 1px 10px 1px, #9c9c9c 1px 11px 1px, #9c9c9c 1px 12px 1px, rgba(16, 16, 16, 0.4) 1px 18px 6px, rgba(16, 16, 16, 0.2) 1px 22px 10px, rgba(16, 16, 16, 0.2) 1px 26px 35px, rgba(16, 16, 16, 0.4) 1px 30px 65px;
+}
+
+.resultWindow p {
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: white 0.006em 0.006em 0.007em, #9c9c9c 1px 1px 1px, #9c9c9c 1px 2px 1px
+}
